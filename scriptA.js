@@ -1,1 +1,0 @@
-(function(a,b){alert(a+' '+b)})('Ahmed','Gadir')

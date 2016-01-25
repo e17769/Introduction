@@ -8,8 +8,8 @@ fs.readFile('./_test.html', function (err, html) {
     }       
     http.createServer(function(request, response) {  
         response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
-        response.end();  
+        //response.write(html);  
+        response.end(html);  
     }).listen(process.env.port|| 1337, '127.0.0.1');
 });
 /*

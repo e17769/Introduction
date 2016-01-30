@@ -1,0 +1,15 @@
+{
+    "name": "SocialConnect",
+    "version": "0.0.1",
+    "private": "true",
+    "description": "Ok this is how you connect with me",
+    "main": "app.js",
+    "author": {
+        "name": "Ahmed Gadir",
+        "email": "E17769@hotmail.com"
+    },
+    "dependencies": {
+        "express": "*",
+        "path": "*"
+    }
+}

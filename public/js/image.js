@@ -5,7 +5,8 @@ $(document).ready(function () {
 	var i =0;
 	var images = ['/public/img/barcodea.gif',
 	'/public/img/barcodeb.gif',
-	'/public/img/snapchat.jpg'];
+	'/public/img/snapchat.jpg',
+    '/public/img/Kroger.jpg'];
     divDis.position({
         of: $(document),
         my: 'center center',

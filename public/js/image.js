@@ -3,12 +3,12 @@ $(document).ready(function () {
 	var imgLink = $('#keyImg');
 	var title = $('#divTitle');
 	var i =0;
-	var images = [
+	var images = ['/public/img/NRS.jpg',
     '/public/img/barcodea.gif',
 	'/public/img/barcodeb.gif',
 	'/public/img/snapchat.jpg',
-    '/public/img/Kroger.jpg',
-    '/public/img/NRS.jpg',];
+    '/public/img/Kroger.jpg'
+    ];
     divDis.position({
         of: $(document),
         my: 'center center',

@@ -3,7 +3,8 @@ $(document).ready(function () {
 	var imgLink = $('#keyImg');
 	var title = $('#divTitle');
 	var i =0;
-	var images = ['/public/img/barcodea.gif',
+	var images = ['/public/img/NRS.gif',
+    '/public/img/barcodea.gif',
 	'/public/img/barcodeb.gif',
 	'/public/img/snapchat.jpg',
     '/public/img/Kroger.jpg'];

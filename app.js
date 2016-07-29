@@ -9,6 +9,10 @@ app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
   //__dirname : It will resolve to your project folder.
 });
+app.get('/info',function(req,res){
+  res.sendFile(path.join(__dirname+'/info.html'));
+  //__dirname : It will resolve to your project folder.
+});
 
 app.listen(3000);
 //app.listen(process.env.port|| 1337, '127.0.0.1');
